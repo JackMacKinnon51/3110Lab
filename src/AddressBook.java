@@ -23,8 +23,8 @@ public class AddressBook {
     }
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
-        AddressBook adressBook = new AddressBook();
-        adressBook.addBuddy(buddy);
-        adressBook.removeBuddy(buddy);
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 }
