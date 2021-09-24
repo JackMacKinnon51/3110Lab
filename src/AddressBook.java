@@ -7,12 +7,10 @@ public class AddressBook {
         this.addressbook = new ArrayList<>();
     }
 
-    public void addBuddy(BuddyInfo x){
-        this.addressbook.add(x);
+    public void addBuddy(BuddyInfo buddy){addressbook.add(buddy);
     }
 
-    public void removeBuddy(BuddyInfo x){
-        this.addressbook.remove(x);
+    public void removeBuddy(BuddyInfo x){ addressbook.remove(x);
     }
 
     public void printBook(){
