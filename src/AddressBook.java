@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 
 public class AddressBook {
+
+
     private final ArrayList<BuddyInfo> addressbook;
+
+    public ArrayList<BuddyInfo> getAddressbook() {
+        return addressbook;
+    }
 
     public AddressBook() {
         this.addressbook = new ArrayList<>();
